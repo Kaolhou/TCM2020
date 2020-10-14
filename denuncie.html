@@ -28,14 +28,14 @@
     </nav>
     <div id="interface">
         <h2 class="topic">Denuncie Aqui</h2>
-        <form>
+        <form target="_blank" action="" method="POST">
             <fieldset>
                 <legend>Formulário de Denúncia</legend>
                 <p>Nome: <input type="text" name="Fnome" placeholder="Deixe a Caixa Vazia para Anônimo" class="nome"></p>
                 <p>Sexo: <select name="Fsex"><option value="masc">Masculino</option><option value="fem">Feminino</option><option value="nb">Não Binário</option><option value="pnr">Prefiro Não Responder</option></select></p>
                 <p>O que houve: <br><textarea name="relato" required placeholder="Digite Aqui o que Houve"></textarea></p>
             </fieldset>
-            <p><input type="submit" value="OK"><input type="reset" value="Limpar"></p>
+            <input type="submit" value="OK" class="ok"><input type="reset" value="Limpar" class="enviar">
         </form>
     </div>
     <script src="_js/dataanime.js"></script>

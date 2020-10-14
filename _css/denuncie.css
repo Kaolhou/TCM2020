@@ -19,3 +19,9 @@ fieldset{
 form{
     margin-left: 150px;
 }
+input.ok{
+	margin-left: 225px;
+}
+input.enviar{
+	margin-right: 150px;
+}
