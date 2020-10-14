@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+input.nome{
+    width: 225px;
+}
+
+textarea{
+    resize: none;
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    text-align: center;
+}
+fieldset{
+    width: 500px;
+}
+form{
+    margin-left: 150px;
+}
