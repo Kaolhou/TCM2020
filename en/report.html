@@ -7,6 +7,7 @@
     <title>TCM</title>
     <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
     <link rel="stylesheet" type="text/css" href="../_css/dataanime.css">
+    <link rel="stylesheet" type="text/css" href="../_css/denuncie.css">
 </head>
 <body>
     <!--Tema do grupo="Violência contra a criança e o adolescente"-->
@@ -26,8 +27,24 @@
         </ul>
     </nav>
     <div id="interface">
-        <h2 class="topic">Violence Against Children and Adolescent</h2>
-        
+        <h2 class="topic">Report it</h2>
+        <form target="_blank" action="" method="POST">
+            <fieldset>
+                <legend>Report Form</legend>
+                <p>Name: <input type="text" name="Fnome" placeholder="For Anonymous, Don't Fill This Box" class="nome"></p>
+                <p>Gender: <select name="Fgen">
+                            <option value="masc">Male</option>
+                            <option value="fem">Female</option>
+                            <option value="nb">Non-Binary</option>
+                            <option value="pnr">Prefer not answer</option>
+                        </select></p>
+                <p>What happened:
+                    <br><textarea name="relato" required placeholder="  Type Here What Happened"></textarea></p>
+            </fieldset>
+            <input type="submit" value="OK" class="ok"><input type="reset" value="Reset" class="enviar">
+        </form>
+
+
     </div>
     <script src="_js/dataanime.js"></script>
 </body>
