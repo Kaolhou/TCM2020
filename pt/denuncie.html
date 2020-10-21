@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TCM</title>
+    <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../_css/dataanime.css">
+    <link rel="stylesheet" type="text/css" href="../_css/denuncie.css">
+</head>
+<body>
+    <!--Tema do grupo="Violência contra a criança e o adolescente"-->
+    <!--Membros
+        André Mendes
+        Kaio Pereira
+        Bruno Guilherme
+        Marco Antônio
+        Jonas Viana Sales-->
+    <nav id="menu">
+        <ul class="menuul">
+            <li><a href="index.html"><button>Pagina Inicial</button></a></li>
+            <li><a href="galeria.html"><button>Galeria</button></a></li>
+            <li><a href="casos.html"><button>Casos</button></a></li>
+            <li><a href="denuncie.html"><button>Denuncie</button></a></li>
+            <li><a href="sobre.html"><button>Sobre Nós</button></a></li>
+        </ul>
+    </nav>
+    <div id="interface">
+        <h2 class="topic">Denuncie Aqui</h2>
+        <form target="_blank" action="" method="POST">
+            <fieldset>
+                <legend>Formulário de Denúncia</legend>
+                <p>Nome: <input type="text" name="Fnome" placeholder="Deixe a Caixa Vazia para Anônimo" class="nome"></p>
+                <p>Sexo: <select name="Fsex">
+                            <option value="masc">Masculino</option>
+                            <option value="fem">Feminino</option>
+                            <option value="nb">Não Binário</option>
+                            <option value="pnr">Prefiro Não Responder</option>
+                        </select></p>
+                <p>O que houve:
+                    <br><textarea name="relato" required placeholder="  Digite Aqui o que Houve"></textarea></p>
+            </fieldset>
+            <input type="submit" value="OK" class="ok"><input type="reset" value="Limpar" class="enviar">
+        </form>
+
+
+    </div>
+    <script src="_js/dataanime.js"></script>
+</body>
+</html>
