@@ -50,3 +50,13 @@ button:hover{
     background-color: #2A54D4;
     transition: .4s;
 }
+li.submenu{
+    width: 15%;
+    visibility: hidden;
+    padding-left: 0px;
+
+}
+li.idi:hover li.submenu{
+    visibility: visible;
+
+}
