@@ -54,8 +54,13 @@ ul.submenu{
     width: 15%;
     visibility: hidden;
     padding-left: 0px;
-
+    opacity: 0;
+    transition: .2s;
+    height: 0px;
 }
 li.idi:hover ul.submenu{
     visibility: visible;
+    transition: .2s ease-in;
+    opacity: 1;
+    height: 90px;
 }
