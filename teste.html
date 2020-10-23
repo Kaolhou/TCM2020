@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function desabilitar(selecionado) {
+            document.getElementById('tel').disabled = selecionado;
+        }
+    </script>
+</head>
+<body>
+    <div class="form-group">
+        <label for="NomeEscola" style="font-weight: normal">Telefone Residencial: 
+      <input type="checkbox" onclick="desabilitar(this.checked)"/> O mesmo do aluno</label>
+        <div class="input-group">
+          <div class="input-group-addon" style="background-color: #FAFAFA">
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          </div>
+          <input type="text" class="form-control" name="TelefoneResidencial" id="tel" data-inputmask="'alias': '(99)9999-9999'" maxlength="150" />
+        </div>
+      </div>
+</body>
+</html>

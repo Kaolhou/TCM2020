@@ -38,7 +38,9 @@
         <form target="_blank" action="" method="POST">
             <fieldset>
                 <legend>Formulário de Denúncia</legend>
-                <p>Nome: <input type="text" name="Fnome" placeholder="Deixe a Caixa Vazia para Anônimo" class="nome"></p>
+                <p><label for="nom">Nome: </label><input type="text" name="Fnome" placeholder="Deixe a Caixa Vazia para Anônimo" class="nome" id="nom"></p>
+                
+                <p><label for="idade" id="idadet">Qual era a idade da vítima: </label><input type="number" max="17" min="0" id="idade"><br><input type="checkbox" id="check" name="ativo" value="--" onclick="desabilitar(this.checked)"><span style="font-size: 10pt; color: #afafaf;"><label for="check">prefiro não responder</label></span></p>
                 <p>Gênero: <select name="Fgen">
                             <option value="masc">Masculino</option>
                             <option value="fem">Feminino</option>
@@ -47,12 +49,17 @@
                         </select></p>
                 <p>O que houve:
                     <br><textarea name="relato" required placeholder="  Digite Aqui o que Houve"></textarea></p>
+                
             </fieldset>
-            <input type="submit" value="OK" class="ok"><input type="reset" value="Limpar" class="enviar">
+            <span style="margin-top: 10px;"><input type="submit" value="OK" class="ok"><input type="reset" value="Limpar" class="enviar"></span>
         </form>
-
 
     </div>
     <script src="../_js/dataanime.js"></script>
+    <script>
+        function desabilitar(selecionado) {
+            document.getElementById('idade').disabled = selecionado;
+        }
+    </script>
 </body>
 </html>
