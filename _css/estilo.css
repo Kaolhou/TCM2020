@@ -3,6 +3,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #dddddd; /*Cor a ser alterada futuramente*/
+    font-size: 10pt;
 }
 
 div#interface{
