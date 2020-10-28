@@ -1,1 +1,1 @@
-ssh -R 3000:127.0.0.1:5500 serveo.net
+ssh -R 3000:localhost:5500 serveo.net

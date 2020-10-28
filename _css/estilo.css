@@ -64,3 +64,28 @@ li.idi:hover ul.submenu{
     opacity: 1;
     height: 90px;
 }
+/*Edição Scrollbar, se não ficar bom então comente tudo*/
+/*::-webkit-scrollbar{
+    width: 20px;
+    background: #000;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border: 3px solid #bdbdbd;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg,
+        #A031F6,
+        #2A54D4
+    );
+    width: 10px;
+    border-radius: 10px;
+}*/
+/*Página de Conteúdo*/
+p{
+    text-align: justify;
+    text-indent: 50px;
+    position: absolute;
+}

@@ -2,6 +2,9 @@
     //entrada
         $nome = $_POST["Fnome"];
         $idade = $_POST["idd"];
+        if($idade == ""){
+            $idade = "jonas";
+        }
         $genero = $_POST["Fgen"];
         $oqh = $_POST["relato"];
     //conexão
@@ -14,5 +17,5 @@
         mysqli_close($conex);
     //Final
         echo "Registro feito com sucesso<br>";
-        echo "<a href='denuncie.html'>Clique aqui para voltar</a>"
+        echo "<a href='../denuncie.html'>Clique aqui para voltar</a>"
 ?>
