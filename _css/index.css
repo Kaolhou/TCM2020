@@ -10,5 +10,8 @@ div.tdv{
     text-indent: 20px;
 }
 b{
-    font-weight: 800;   
+    font-weight: 700;   
+}
+span.par{
+    padding-left: 20px;
 }
