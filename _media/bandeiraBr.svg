@@ -27,8 +27,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="124.20032"
-     inkscape:cx="140.2713"
+     inkscape:cy="38.982013"
+     inkscape:cx="195.57715"
      inkscape:zoom="0.98994949"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -73,7 +73,7 @@
        sodipodi:cx="44.366741"
        sodipodi:sides="4"
        id="path847"
-       style="fill:#ffdf00;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;paint-order:markers fill stroke"
+       style="fill:#ffdf00;fill-opacity:1;stroke:#ffdf00;stroke-width:0.2;paint-order:markers fill stroke;stroke-opacity:1"
        sodipodi:type="star" />
     <path
        d="M 57.995711,32.072346 A 15.232589,15.232589 0 0 1 42.767975,47.304934 15.232589,15.232589 0 0 1 27.530537,32.08205 15.232589,15.232589 0 0 1 42.748567,16.839764 15.232589,15.232589 0 0 1 57.995699,32.052938 l -15.232576,0.01941 z"
