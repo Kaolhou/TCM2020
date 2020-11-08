@@ -48,7 +48,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #2A54D4;
+    background-color: #2f00ff;
     transition: .4s;
 }
 ul.submenu{
