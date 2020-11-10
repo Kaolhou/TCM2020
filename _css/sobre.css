@@ -1,2 +1,36 @@
 @charset "utf-8";
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+  }
+.cartao{
+    background-color: antiquewhite;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    width: 100%;
+    transition: .2s;
 
+}
+.cartao figcaption{
+    
+}
+.cartao:hover{
+    border-radius: 10px;
+    transition: .2s;
+}
+.cartao_foto{
+    display: block;
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+    text-align: center;
+}
+/*h1{
+    color: #6b76ff;
+    font-family: 'Baloo Bhaina', cursive;
+    letter-spacing: 1.3px;
+    text-align: center;
+}*/
