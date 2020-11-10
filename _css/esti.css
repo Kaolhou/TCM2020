@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd; /*Cor a ser alterada futuramente*/
+    font-size: 10pt;
+}
+
+div#interface{
+    width: 900px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0 , 0 , 0, 0.5);
+    padding: 10px; /*Tamanhos e cores a serem modificadas futuramente*/
+    margin-top: 50px;
+}
+
+h2.topic{
+    text-align: center;
+}
+/*Configuração de Menu*/
+
+ul.menuul li{
+    list-style: none;
+    flex: 1;
+}
+ul.menuul{
+    display: flex;
+    background: rgb(24,24,24);
+    background: linear-gradient(180deg, rgba(24,24,24,1) 0%, rgba(64,64,64,1) 79%);
+    margin-top: -50px;
+    margin-left: -8px;
+    padding: 20px;
+}
+nav#menu{
+    position: fixed;
+    width: 100%;
+}
+button{
+    border: none;
+    background-color: #00000000;
+    color: #dddddd;
+    font-weight: bold;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2f00ff;
+    transition: .4s;
+}
+ul.submenu{
+    width: 15%;
+    visibility: hidden;
+    padding-left: 0px;
+    opacity: 0;
+    transition: .2s;
+    height: 0px;
+}
+li.idi:hover ul.submenu{
+    visibility: visible;
+    transition: .2s ease-in;
+    opacity: 1;
+    height: 90px;
+}
+/*Edição Scrollbar, se não ficar bom então comente tudo*/
+/*::-webkit-scrollbar{
+    width: 20px;
+    background: #000;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border: 3px solid #bdbdbd;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg,
+        #A031F6,
+        #2A54D4
+    );
+    width: 10px;
+    border-radius: 10px;
+}*/
+/*Página de Conteúdo*/
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+footer{
+    font-size: 9pt;
+}
