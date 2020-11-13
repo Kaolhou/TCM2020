@@ -56,11 +56,11 @@ button{
     border: none;
     cursor: pointer;
     font-size: 15pt;
-    width: 150px;
+    width: 110px;
 }
 ul.submenu{
     position: relative;
-    left: 641px;
+    left: 541px;
     top: -15px;
     margin-top: 10px;
     margin-right: 430px;
