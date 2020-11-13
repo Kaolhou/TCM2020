@@ -39,14 +39,16 @@ ul.menuul{
     text-align: center;
     padding-right: 50px;
     padding-top: 20px;
+    
 }
 ul.menuul li{
     display: inline;
     padding-right: 20px;
+    text-align: center;
     
 }
 ul.submenu li{
-    display: grid;
+    /*display: grid;*/
     
 }
 button{
@@ -54,10 +56,12 @@ button{
     border: none;
     cursor: pointer;
     font-size: 15pt;
+    width: 150px;
 }
 ul.submenu{
-    position: absolute;
-    float: right;
+    position: relative;
+    left: 641px;
+    top: -15px;
     margin-top: 10px;
     margin-right: 430px;
     opacity: 0;
@@ -67,4 +71,7 @@ li.idi:hover ul.submenu{
     transform: translateY(7px);
     transition: 0.3s;
     opacity: 1;
+}
+ul.submenu li{
+    display: block;
 }
