@@ -1,0 +1,105 @@
+@charset "utf-8";
+/*Declaração de Fontes*/
+@font-face{
+    font-family: "Montserrat";
+    src: url(../_fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../_fonts/Nexa\ Bold.otf);
+}
+@font-face{
+    font-family: "Nexa";
+    src: url(../_fonts/Nexa\ Light.otf);
+}
+/*@font-face{
+    font-family: "Montserrat";
+    src: url(../_fonts/Montserrat-Regular.ttf);
+}*/
+
+/*Estilos Gerais*/
+
+body{
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+}
+nav#menu{
+    background-image: url(../_layout/nav.svg)   ;
+    /*background-color: blue;*/
+    /*position: fixed;*/
+    width: 100%;
+    height: 194px;
+    margin-top: -15px;
+    margin-left: -7px;
+    transform: scale(1.022);
+    overflow: hidden;
+    
+}
+div#interface{
+    margin-top: -50px;
+    font-family: Montserrat;
+}
+
+/*Configuração de Menu com Submenu*/
+
+ul.menuul li{
+    
+    list-style: none;
+    flex: 1;
+    height: 10%;
+    
+    /*padding-left: 20px;*/
+}
+ul.menuul{
+    /*display: flex;
+    margin-top: -50px;
+    margin-left: -8px;*/
+    
+    /*height: 27px;*/
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+ul.menuul li{
+    display: inline;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+ul.submenu li{
+    /*display: grid;*/
+}
+button{
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 15pt;
+    width: 110px;
+}
+ul.submenu{
+    position: relative;
+    left: 859px;
+    top: -15px;
+    margin-top: 10px;
+    margin-right: 430px;
+    opacity: 0;
+    transition: .3s;
+}
+li.idi:hover ul.submenu{
+    transform: translateY(7px);
+    transition: 0.3s;
+    opacity: 1;
+}
+ul.submenu li{
+    display: block;
+    
+}
+li.idi{
+    
+}
+li.sub{
+    width: 50px;
+}
+/*ul.menuul li:hover{
+    opacity: 0;
+}*/
