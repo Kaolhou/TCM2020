@@ -1,8 +1,8 @@
 @charset "utf-8";
 .container {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: -50px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     
   }
 .cartao{
@@ -12,10 +12,19 @@
     overflow: hidden;
     width: 100%;
     transition: .2s;
-
+    width: 50vh;
+    height: 51vh;
 }
 .cartao figcaption{
-    
+    text-align: center;
+}
+figcaption a{
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+}
+figcaption a:hover{
+    color: blue;
 }
 .cartao:hover{
     border-radius: 10px;
@@ -34,3 +43,6 @@
     letter-spacing: 1.3px;
     text-align: center;
 }*/
+ul.submenu{
+    left: 541px;;
+}
