@@ -94,3 +94,6 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+  ul.submenu{
+    left: 541px;;
+}

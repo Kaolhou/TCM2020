@@ -78,7 +78,7 @@ button{
 }
 ul.submenu{
     position: relative;
-    left: 541px;
+    left: 863px;
     top: -15px;
     margin-top: 10px;
     margin-right: 430px;
@@ -95,7 +95,10 @@ ul.submenu li{
     
 }
 li.idi{
-    width: 110px;
+    
+}
+li.sub{
+    width: 50px;
 }
 /*ul.menuul li:hover{
     opacity: 0;
