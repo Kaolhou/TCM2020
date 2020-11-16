@@ -10,8 +10,11 @@
   }
     @media (min-width: 480px) {
         .gallery-container {
-          width: 800px;
+          width: 550px;
           margin: auto;
+          top: -50px;
+          left: -100px;
+          height: 480px;
         }
     }
   

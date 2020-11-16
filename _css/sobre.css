@@ -15,7 +15,15 @@
 
 }
 .cartao figcaption{
-    
+    text-align: center;
+}
+figcaption a{
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+}
+figcaption a:hover{
+    color: blue;
 }
 .cartao:hover{
     border-radius: 10px;
