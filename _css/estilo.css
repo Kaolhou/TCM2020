@@ -141,9 +141,10 @@ nav {
 body{
     font-family: sans-serif;
     background-color: #f7f7f7;
+    
 }
 nav{
-    background-image: url(../_layout/nav.svg)   ;
+    background-image: url(../_layout/nav.svg);
     /*background-color: blue;*/
     /*position: fixed;*/
     width: 100%;
@@ -156,4 +157,12 @@ nav{
 }
 ul.nav{
     margin-top: 2vh;
+}
+h2{
+  text-align: center;
+  text-indent: -10vh;
+}
+div.nomes{
+  text-align: center;
+  margin: 10px;
 }
