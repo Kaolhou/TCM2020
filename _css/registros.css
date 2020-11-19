@@ -1,0 +1,15 @@
+@charset "UTF-8";
+td.oqhouve{
+    height: 10vh;
+    width: 25vh;
+}
+td, th{
+    border: 1px #000 solid;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px #000 solid;
+    padding-top: 50px;
+    text-align: center;
+}

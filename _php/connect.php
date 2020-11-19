@@ -14,5 +14,5 @@
         mysqli_close($conex);
     //Final
         echo "Registration successful<br>";
-        echo "<a href='../denuncie.html'>Click here to return</a>"
+        echo "<a href='../en/denuncie.html'>Click here to return</a>"
 ?>

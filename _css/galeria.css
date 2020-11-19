@@ -4,9 +4,10 @@
 .gallery-container {
     width: 90%;
     position: relative;
-    margin: 0 5%;
+    margin: 0;
     background: #333;
     padding: 2px;
+    
   }
     @media (min-width: 480px) {
         .gallery-container {

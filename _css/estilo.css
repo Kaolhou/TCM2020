@@ -22,6 +22,7 @@
 nav {    
     display: block;
     text-align: center;
+    
   }
   nav ul {
     margin: 0;
@@ -51,6 +52,7 @@ nav {
   }
   .nav li {
     position: relative;
+    font-family: "Nexa";
   }
   .nav > li { 
     float: left; 

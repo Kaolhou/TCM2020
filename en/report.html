@@ -36,10 +36,11 @@
           </nav>
     <div id="interface">
         <h2 class="topic">Report it</h2>
-        <form target="_blank" action="" method="POST">
+        <form target="_blank" action="../_php/connect.php" method="POST">
             <fieldset>
                 <legend>Report Form</legend>
                 <p>Name: <input type="text" name="Fnome" placeholder="For Anonymous, Don't Fill This Box" class="nome"></p>
+                <p><label for="idade">What was the victim's age: </label><input type="number" max="17" min="0" id="idade" name="idd"><!--<br><input type="checkbox" id="check" name="ativo" value="--" onclick="desabilitar(this.checked)"><span style="font-size: 10pt; color: #afafaf;"><la0bel for="check">prefiro não responder</label></span>--></p>
                 <p>Gender: <select name="Fgen">
                             <option value="masc">Male</option>
                             <option value="fem">Female</option>
