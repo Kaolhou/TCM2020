@@ -138,6 +138,7 @@ nav {
   div#interface{
     margin-top: -50px;
     font-family: Montserrat;
+    margin: 0 23vh 0 23vh;
     /*overflow: hidden;*/
 }
 body{
