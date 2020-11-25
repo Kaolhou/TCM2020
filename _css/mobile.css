@@ -2,8 +2,23 @@
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    div#interface{
+        margin: 0 2vh 0 2vh;
+    }
     nav{
-        background-image: url(../_layout/nav.svg);
-        transform: scale(1.50);
+        width: 100%;
+    }
+    html{
+        text-align: center;
+    }
+    img.svgperso{
+        width: 40vh;
+        margin-left: -20px;
+    }
+    hr{
+        width: 40vh;
+    }
+    img.svgperso:hover nav{
+        width: 700px;
     }
 }
