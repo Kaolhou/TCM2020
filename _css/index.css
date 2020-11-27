@@ -20,3 +20,10 @@ h2, h3, h4{
     font-family: "Nexa_Bold";
     
 }
+h1{
+    font-size: 18pt;
+}
+h2{
+    font-size: 15pt;
+    text-align: left;
+}

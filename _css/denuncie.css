@@ -19,7 +19,7 @@ fieldset{
     background-color: white;
 }
 form{
-    margin-left: 150px;
+    margin-left: 30vh;
 }
 input.ok{
 	margin-left: 225px;
@@ -29,4 +29,13 @@ input.enviar{
 }
 ul.submenu{
     left: 541px;;
+}
+button.reg{
+    float: right;
+    border: 2px solid #000000;
+    border-radius: 4vh; 
+    padding: 2vh;
+    font-size: 2vh;
+    margin-top: -50vh;
+    
 }

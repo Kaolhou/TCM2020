@@ -14,8 +14,10 @@
           width: 550px;
           margin: auto;
           top: -50px;
-          left: -100px;
-          height: 480px;
+          left: auto;
+          height: 450px;
+          border-radius: 10px;
+          padding: 5px;
         }
     }
   
