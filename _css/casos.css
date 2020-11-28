@@ -3,3 +3,21 @@
 ul.submenu{
     left: 541px;;
 }
+div#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    grid-gap: 10px;
+    transform: scale(0.91);
+    margin-left: -7vh;
+}
+iframe{
+    width: 410px;
+	height: 270px;
+	border: none;
+	overflow: hidden;
+}
+article{
+    padding-top: 25px;
+    text-align: justify;
+}
