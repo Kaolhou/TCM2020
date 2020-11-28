@@ -16,10 +16,15 @@ p{
 fieldset{
     width: 500px;
     border-radius: 10px;
-    background-color: white;
+    
 }
 form{
     margin-left: 30vh;
+    background-image: url(../_media/personagen-tamanho-certo/personagemvitiligo.svg);
+    background-repeat: no-repeat;
+    background-position: 30px 70px;
+    overflow: hidden;
+    background-size: 70%;
 }
 input.ok{
 	margin-left: 225px;
