@@ -8,6 +8,7 @@ textarea{
     resize: none;
     width: 200px;
     height: 200px;
+    background-color: #ffffff85;
 }
 
 p{
@@ -16,12 +17,15 @@ p{
 fieldset{
     width: 500px;
     border-radius: 10px;
-    
+    background-image: url(../_media/personagen-tamanho-certo/personagemvitiligo.svg);
+    background-size: 350px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 form{
     margin-left: 30vh;
-    background-image: url(../_media/personagen-tamanho-certo/personagemvitiligo.svg);
-    background-repeat: no-repeat;
+    
+    
     background-position: 30px 70px;
     overflow: hidden;
     background-size: 70%;
@@ -43,4 +47,11 @@ button.reg{
     font-size: 2vh;
     margin-top: -50vh;
     
+}
+input, select{
+    background-color: #ffffff6e;
+    color: #000000;
+}
+.ok, .enviar{
+    background-color: white;
 }
