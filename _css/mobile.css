@@ -21,4 +21,7 @@
     img.svgperso:hover nav{
         width: 700px;
     }
+    div#grid-container{
+        grid-template-columns: 11vh;
+    }
 }
