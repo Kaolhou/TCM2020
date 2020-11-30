@@ -19,8 +19,9 @@ fieldset{
     border-radius: 10px;
     background-image: url(../_media/personagen-tamanho-certo/personagemvitiligo.svg);
     background-size: 350px;
-    background-position: right;
+    background-position: center ;
     background-repeat: no-repeat;
+    opacity: 1;
 }
 form{
     margin-left: 30vh;
@@ -29,6 +30,7 @@ form{
     background-position: 30px 70px;
     overflow: hidden;
     background-size: 70%;
+    
 }
 input.ok{
 	margin-left: 225px;
@@ -54,4 +56,7 @@ input, select{
 }
 .ok, .enviar{
     background-color: white;
+}
+div#img{
+    
 }

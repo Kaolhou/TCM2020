@@ -71,9 +71,9 @@ nav {
     /*box-shadow: inset 0 2em .33em -0.5em #555; 
   }*/
 
-    background-color: rgba(0, 0, 0, 0);
+    /*background-color: rgba(0, 0, 0, 0);*/
     /*box-shadow: inset 0 2em .33em -0.5em #555; */
-  }
+  /*}*/
   .nav > li:hover, 
   .nav > li:hover > a { 
     border-bottom-color: #85002a;
@@ -151,6 +151,7 @@ nav {
     font-family: Montserrat;
     margin: 0 23vh 0 23vh;
     /*overflow: hidden;*/
+    top: 550vh;
 }
 body{
     font-family: sans-serif;
@@ -163,10 +164,11 @@ nav{
     background: linear-gradient(140deg, rgba(37,45,64,1) 20%, rgba(99,43,70,1) 80%, rgba(133,0,42,1) 100%);
     /*background-color: blue;*/
     /*position: fixed;*/
+    z-index: 1;
     width: 100%;
     /*height: 194px;*/
     height: 125px;
-    margin-top: -15px;
+    margin-top: -2vh;
     margin-left: -7px;
     transform: scale(1.022);
     overflow: hidden;
@@ -212,4 +214,21 @@ nav ul.nav > li:hover nav{
   );
   width: 10px;
   border-radius: 5px;
+}
+body{
+    background-image: url('../_media/personagen tamanho certo/canto.svg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: bottom left;
+    width: 100%;
+    overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s;
+}
+a:hover{
+  color: blue;
+  transition: .3s;
 }

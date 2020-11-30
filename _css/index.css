@@ -5,7 +5,7 @@
     src: url();
 }
 div.tdv{
-    margin: 20px;
+    /*margin: 20px;*/
     text-align: justify;
     text-indent: 20px;
 }
@@ -26,4 +26,11 @@ h1{
 h2{
     font-size: 15pt;
     text-align: left;
+}
+/*edições de Grid*/
+div#grid-conatainer{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    align-items: center;
+    column-gap: 20px;
 }
