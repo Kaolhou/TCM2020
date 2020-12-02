@@ -156,7 +156,6 @@ nav {
 body{
     font-family: sans-serif;
     background-color: #f7f7f7;
-    
 }
 nav{
     /*background-image: url(../_layout/nav.svg);*/
@@ -216,7 +215,7 @@ nav ul.nav > li:hover nav{
   border-radius: 5px;
 }
 body{
-    background-image: url('../_media/personagen tamanho certo/canto.svg');
+    background-image: url('../_media/personagem tamanho certo/canto.svg');
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: bottom left;

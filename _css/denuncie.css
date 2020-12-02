@@ -20,17 +20,15 @@ fieldset{
     background-image: url(../_media/personagem-tamanho-certo/personagemvitiligo.svg);
     background-size: 350px;
     background-position: center ;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     opacity: 1;
+    text-decoration-color:
 }
 form{
     margin-left: 30vh;
-    
-    
     background-position: 30px 70px;
     overflow: hidden;
     background-size: 70%;
-    
 }
 input.ok{
 	margin-left: 225px;
