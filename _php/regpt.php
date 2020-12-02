@@ -13,11 +13,11 @@
     <nav>
         <ul class="nav">
               
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="../galeria.html">Galeria</a></li>
-            <li><a href="../casos.html">Casos</a></li>
-            <li><a href="../denuncie.html">Denuncie</a></li>
-            <li><a href="../sobre.html">Sobre Nós</a></li>  
+            <li><a href="../pt/index.html">Início</a></li>
+            <li><a href="../pt/galeria.html">Galeria</a></li>
+            <li><a href="../pt/casos.html">Casos</a></li>
+            <li><a href="../pt/denuncie.html">Denuncie</a></li>
+            <li><a href="../pt/sobre.html">Sobre Nós</a></li>  
                 <li><a href="#">Idioma</a><ul>
                     <li><a href="casos.html">Português</a></li>
                     <li><a href="../en/index.html">English</a></li>
